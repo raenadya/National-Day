@@ -11,27 +11,7 @@
 		90A5D8792A6B72FA0002A4F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5D8782A6B72FA0002A4F8 /* ContentView.swift */; };
 		90A5D87B2A6B72FA0002A4F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A5D87A2A6B72FA0002A4F8 /* Assets.xcassets */; };
 		90A5D87E2A6B72FA0002A4F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A5D87D2A6B72FA0002A4F8 /* Preview Assets.xcassets */; };
-		90A5D8882A6B72FB0002A4F8 /* National_DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5D8872A6B72FB0002A4F8 /* National_DayTests.swift */; };
-		90A5D8922A6B72FB0002A4F8 /* National_DayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5D8912A6B72FB0002A4F8 /* National_DayUITests.swift */; };
-		90A5D8942A6B72FB0002A4F8 /* National_DayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A5D8932A6B72FB0002A4F8 /* National_DayUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		90A5D8842A6B72FB0002A4F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 90A5D86B2A6B72FA0002A4F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90A5D8722A6B72FA0002A4F8;
-			remoteInfo = "National Day";
-		};
-		90A5D88E2A6B72FB0002A4F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 90A5D86B2A6B72FA0002A4F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90A5D8722A6B72FA0002A4F8;
-			remoteInfo = "National Day";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		90A5D8732A6B72FA0002A4F8 /* National Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "National Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,29 +19,10 @@
 		90A5D8782A6B72FA0002A4F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90A5D87A2A6B72FA0002A4F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90A5D87D2A6B72FA0002A4F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		90A5D8832A6B72FB0002A4F8 /* National DayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "National DayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90A5D8872A6B72FB0002A4F8 /* National_DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = National_DayTests.swift; sourceTree = "<group>"; };
-		90A5D88D2A6B72FB0002A4F8 /* National DayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "National DayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90A5D8912A6B72FB0002A4F8 /* National_DayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = National_DayUITests.swift; sourceTree = "<group>"; };
-		90A5D8932A6B72FB0002A4F8 /* National_DayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = National_DayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		90A5D8702A6B72FA0002A4F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90A5D8802A6B72FB0002A4F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90A5D88A2A6B72FB0002A4F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,8 +36,6 @@
 			isa = PBXGroup;
 			children = (
 				90A5D8752A6B72FA0002A4F8 /* National Day */,
-				90A5D8862A6B72FB0002A4F8 /* National DayTests */,
-				90A5D8902A6B72FB0002A4F8 /* National DayUITests */,
 				90A5D8742A6B72FA0002A4F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +44,6 @@
 			isa = PBXGroup;
 			children = (
 				90A5D8732A6B72FA0002A4F8 /* National Day.app */,
-				90A5D8832A6B72FB0002A4F8 /* National DayTests.xctest */,
-				90A5D88D2A6B72FB0002A4F8 /* National DayUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +67,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		90A5D8862A6B72FB0002A4F8 /* National DayTests */ = {
-			isa = PBXGroup;
-			children = (
-				90A5D8872A6B72FB0002A4F8 /* National_DayTests.swift */,
-			);
-			path = "National DayTests";
-			sourceTree = "<group>";
-		};
-		90A5D8902A6B72FB0002A4F8 /* National DayUITests */ = {
-			isa = PBXGroup;
-			children = (
-				90A5D8912A6B72FB0002A4F8 /* National_DayUITests.swift */,
-				90A5D8932A6B72FB0002A4F8 /* National_DayUITestsLaunchTests.swift */,
-			);
-			path = "National DayUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,42 +87,6 @@
 			productReference = 90A5D8732A6B72FA0002A4F8 /* National Day.app */;
 			productType = "com.apple.product-type.application";
 		};
-		90A5D8822A6B72FB0002A4F8 /* National DayTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90A5D89A2A6B72FB0002A4F8 /* Build configuration list for PBXNativeTarget "National DayTests" */;
-			buildPhases = (
-				90A5D87F2A6B72FB0002A4F8 /* Sources */,
-				90A5D8802A6B72FB0002A4F8 /* Frameworks */,
-				90A5D8812A6B72FB0002A4F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90A5D8852A6B72FB0002A4F8 /* PBXTargetDependency */,
-			);
-			name = "National DayTests";
-			productName = "National DayTests";
-			productReference = 90A5D8832A6B72FB0002A4F8 /* National DayTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		90A5D88C2A6B72FB0002A4F8 /* National DayUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90A5D89D2A6B72FB0002A4F8 /* Build configuration list for PBXNativeTarget "National DayUITests" */;
-			buildPhases = (
-				90A5D8892A6B72FB0002A4F8 /* Sources */,
-				90A5D88A2A6B72FB0002A4F8 /* Frameworks */,
-				90A5D88B2A6B72FB0002A4F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90A5D88F2A6B72FB0002A4F8 /* PBXTargetDependency */,
-			);
-			name = "National DayUITests";
-			productName = "National DayUITests";
-			productReference = 90A5D88D2A6B72FB0002A4F8 /* National DayUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +99,6 @@
 				TargetAttributes = {
 					90A5D8722A6B72FA0002A4F8 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					90A5D8822A6B72FB0002A4F8 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 90A5D8722A6B72FA0002A4F8;
-					};
-					90A5D88C2A6B72FB0002A4F8 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 90A5D8722A6B72FA0002A4F8;
 					};
 				};
 			};
@@ -220,8 +116,6 @@
 			projectRoot = "";
 			targets = (
 				90A5D8722A6B72FA0002A4F8 /* National Day */,
-				90A5D8822A6B72FB0002A4F8 /* National DayTests */,
-				90A5D88C2A6B72FB0002A4F8 /* National DayUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,20 +127,6 @@
 			files = (
 				90A5D87E2A6B72FA0002A4F8 /* Preview Assets.xcassets in Resources */,
 				90A5D87B2A6B72FA0002A4F8 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90A5D8812A6B72FB0002A4F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90A5D88B2A6B72FB0002A4F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,37 +142,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90A5D87F2A6B72FB0002A4F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90A5D8882A6B72FB0002A4F8 /* National_DayTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90A5D8892A6B72FB0002A4F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90A5D8922A6B72FB0002A4F8 /* National_DayUITests.swift in Sources */,
-				90A5D8942A6B72FB0002A4F8 /* National_DayUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		90A5D8852A6B72FB0002A4F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 90A5D8722A6B72FA0002A4F8 /* National Day */;
-			targetProxy = 90A5D8842A6B72FB0002A4F8 /* PBXContainerItemProxy */;
-		};
-		90A5D88F2A6B72FB0002A4F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 90A5D8722A6B72FA0002A4F8 /* National Day */;
-			targetProxy = 90A5D88E2A6B72FB0002A4F8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		90A5D8952A6B72FB0002A4F8 /* Debug */ = {
@@ -465,78 +315,6 @@
 			};
 			name = Release;
 		};
-		90A5D89B2A6B72FB0002A4F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.National-DayTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/National Day.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/National Day";
-			};
-			name = Debug;
-		};
-		90A5D89C2A6B72FB0002A4F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.National-DayTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/National Day.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/National Day";
-			};
-			name = Release;
-		};
-		90A5D89E2A6B72FB0002A4F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.National-DayUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "National Day";
-			};
-			name = Debug;
-		};
-		90A5D89F2A6B72FB0002A4F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.raenadya.National-DayUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "National Day";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -554,24 +332,6 @@
 			buildConfigurations = (
 				90A5D8982A6B72FB0002A4F8 /* Debug */,
 				90A5D8992A6B72FB0002A4F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90A5D89A2A6B72FB0002A4F8 /* Build configuration list for PBXNativeTarget "National DayTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90A5D89B2A6B72FB0002A4F8 /* Debug */,
-				90A5D89C2A6B72FB0002A4F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90A5D89D2A6B72FB0002A4F8 /* Build configuration list for PBXNativeTarget "National DayUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90A5D89E2A6B72FB0002A4F8 /* Debug */,
-				90A5D89F2A6B72FB0002A4F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
