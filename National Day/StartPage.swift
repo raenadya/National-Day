@@ -2,6 +2,7 @@ import SwiftUI
 
 struct StartPage: View {
     @State private var isStarted = false
+    @State private var readyToTest = false
 
     var body: some View {
         NavigationView {
@@ -15,13 +16,21 @@ struct StartPage: View {
                         .foregroundColor(.red)
                         .padding()
 
-                    Button("Start") {
-                        isStarted = true
+                    Toggle("ready to test your singaporeanness?", isOn: $readyToTest)
+                        .padding()
+                        .foregroundColor(.red)
+
+                    if readyToTest {
+                        Button("lesgo") {
+                            withAnimation {
+                                isStarted = true
+                            }
+                        }
+                        .padding()
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
                     }
-                    .padding()
-                    .background(Color.red)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
                 }
             }
         }
